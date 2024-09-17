@@ -12,6 +12,7 @@ export default {
     extend: {
       colors: {
         'digital-seed': '#1AC78D',
+        'primary': '#D53232',
       },
       fontFamily: {
         'montserrat': ['Montserrat'],

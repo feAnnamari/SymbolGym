@@ -32,10 +32,12 @@ const links = [
 </script>
 
 <template>
-    <header class="flex items-center justify-between h-24 px-10 bg-black">
-        <NuxtImg src="/img/logo_white.svg" width="64" height="64" />
-        <nav class="space-x-10">
-            <NuxtLink v-for="link in links" :to="link.href" class="tracking-widest text-white uppercase font-teko">{{ link.label }}</NuxtLink>
-        </nav>
-    </header>
+    <div class="py-4 bg-black">
+        <header class="container flex items-center justify-between">
+            <NuxtImg src="/img/logo_white.svg" width="64" height="64" />
+            <nav class="space-x-10">
+                <NuxtLink v-for="link in links" :to="link.href" class="tracking-widest text-white uppercase font-teko">{{ link.label }}</NuxtLink>
+            </nav>
+        </header>
+    </div>
 </template>
