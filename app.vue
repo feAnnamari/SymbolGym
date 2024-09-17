@@ -6,7 +6,7 @@ useHead({
 })
 </script>
 <template>
-  <div class="font-roboto">
+  <div class="font-montserrat">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>

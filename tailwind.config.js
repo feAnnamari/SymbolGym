@@ -14,7 +14,9 @@ export default {
         'digital-seed': '#1AC78D',
       },
       fontFamily: {
-        'roboto': ['Roboto'],
+        'montserrat': ['Montserrat'],
+        'teko': ['Teko'],
+        'shoulders': ['Big Shoulders Display'],
       },
     },
     container: {

@@ -46,7 +46,9 @@ export default defineNuxtConfig({
       "@nuxtjs/google-fonts",
       {
         families: {
-          Roboto: true,
+          Montserrat: true,
+          Teko: true,
+          "Big Shoulders Display": true,
         },
       },
     ],
