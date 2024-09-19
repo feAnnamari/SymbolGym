@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2024-04-03",
+  compatibilityDate: "2024-09-19",
   devtools: { enabled: false },
   css: ["~/assets/scss/main.scss", "~/assets/scss/fonts.scss"],
   postcss: {
@@ -29,13 +29,13 @@ export default defineNuxtConfig({
       "nuxt-mail",
       {
         message: {
-          to: "web@alkuszom.info",
+          to: "web@symbolgym.info",
         },
         smtp: {
           host: "s56.tarhely.com",
           port: 587,
           auth: {
-            user: "web@alkuszom.info",
+            user: "web@symbolgym.info",
             pass: "#+SpM_HR~QCy",
           },
         },
@@ -64,7 +64,7 @@ export default defineNuxtConfig({
         {
           hid: "description",
           name: "description",
-          content: "Személyre szabott biztosítási megoldások mindenkinek. Megbízható alkusz a biztosítási piacon.",
+          content: "Hatékony edzések modern eszközökkel és tapasztalt edzőkkel. Építsd fel a legjobb önmagad a Symbol Gym-ben!",
         },
         { name: "format-detection", content: "telephone=no" },
         { hid: "robots", name: "robots", content: "index, follow" },
@@ -81,7 +81,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-        { rel: "canonical", href: "https://www.alkuszom.info" },
+        { rel: "canonical", href: "https://www.symbolgym.info" },
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
         { rel: "preconnect", href: "https://fonts.gstatic.com" },
         {
@@ -93,7 +93,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: "https://www.alkuszom.info",
+    url: "https://www.symbolgym.info",
     trailingSlash: true,
   },
 });
