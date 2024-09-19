@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 @layer base {
-
 }
 
 @layer components {
-    
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  textarea {
+    @apply transition w-full p-2.5 placeholder-zinc-400 leading-tight !text-white bg-transparent focus:border-b-white border-b-zinc-400 border-t-0 border-x-0 appearance-none focus:outline-transparent !important;
+  }
 }
 
 @layer utilities {
-    
 }
