@@ -48,7 +48,7 @@ export default defineNuxtConfig({
         families: {
           Montserrat: true,
           Teko: true,
-          "Big Shoulders Display": true,
+          "Big Shoulders Display": "200..900",
         },
       },
     ],
